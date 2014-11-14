@@ -6,5 +6,6 @@
  */
 class SomeClass {
     
-    private $var = "someVar";
+    private $var = "changedName";
+    private $var2 = "also a var";
 }
