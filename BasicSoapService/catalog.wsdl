@@ -32,16 +32,14 @@
         encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
     </input> 
     <output> 
-      <soap:body use='encoded' namespace=
-   'urn:localhost-catalog' 
-        encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+      <soap:body use='encoded' namespace='urn:localhost-catalog' encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
     </output> 
   </operation> 
 </binding> 
 
 <service name='CatalogService'> 
   <port name='CatalogPort' binding='CatalogBinding'> 
-    <soap:address location='http://localhost/GitProject/SoapService/soap-server.php'/> 
+    <soap:address location='http://localhost/GitProject/BasicSoapService/soap-server.php'/> 
   </port> 
 </service>
 </definitions>
